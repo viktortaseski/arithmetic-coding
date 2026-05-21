@@ -51,6 +51,7 @@ Arithmetic coding usually achieves compression closer to the entropy limit.
 This project uses the following external library:
 
 - dahuffman (used for Huffman coding implementation)
+- bitarray (for representing encoded bitstreams)
 
 Install it using:
 
