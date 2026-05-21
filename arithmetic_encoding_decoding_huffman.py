@@ -193,3 +193,23 @@ encoded_huffman = ''.join(codes[ch] for ch in sequence)
 print()
 print("Huffman encoded length:")
 print(len(encoded_huffman), "bits")
+
+# =========================================================
+# COMPARISON
+# =========================================================
+
+print()
+print("Comparison")
+print("----------")
+
+print("Arithmetic coding bits :", arith_bits)
+print("Huffman coding bits    :", len(encoded_huffman))
+
+if arith_bits < len(encoded_huffman):
+    print("Arithmetic coding is better.")
+
+elif arith_bits > len(encoded_huffman):
+    print("Huffman coding is better.")
+
+else:
+    print("Both methods are equal.")
