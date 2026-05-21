@@ -66,13 +66,13 @@ Arithmetic coding is implemented manually without external libraries.
 Open a terminal inside the project folder and run:
 
 ```bash
-py arithmetic_encoding_decoding_huffman.py
+py index.py
 ```
 
 or:
 
 ```bash
-python arithmetic_encoding_decoding_huffman.py
+python index.py
 ```
 
 ---

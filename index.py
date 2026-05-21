@@ -30,7 +30,7 @@ weights = [float(p) for p in probabilities.values()]
 sequence = random.choices(symbols, weights=weights, k=100)
 sequence = ''.join(sequence)
 
-print("Generated sequence:")
+print("\nGenerated sequence:")
 print(sequence)
 print()
 
