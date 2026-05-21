@@ -56,7 +56,7 @@ This project uses the following external library:
 Install it using:
 
 ```bash
-pip install dahuffman
+pip install bitarray dahuffman
 ```
 
 Arithmetic coding is implemented manually without external libraries.
