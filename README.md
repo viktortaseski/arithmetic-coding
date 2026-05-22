@@ -46,18 +46,7 @@ Arithmetic coding usually achieves compression closer to the entropy limit.
 
 ---
 
-# External Libraries Used
-
-This project uses the following external library:
-
-- dahuffman (used for Huffman coding implementation)
-- bitarray (for representing encoded bitstreams)
-
-Install it using:
-
-```bash
-pip install bitarray dahuffman
-```
+# Implementation
 
 Arithmetic coding is implemented manually without external libraries.
 
